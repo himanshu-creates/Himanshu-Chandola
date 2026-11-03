@@ -1,0 +1,33 @@
+https://himanshuchandola.pages.dev/*
+  X-Robots-Tag: noindex
+
+https://himanshuchandola.com/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# Cache static assets for 1 year (Performance & SEO Server Score)
+https://himanshuchandola.com/*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.webp
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.png
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.ktx2
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.glb
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/*.mp3
+  Cache-Control: public, max-age=31536000, immutable
+
+https://himanshuchandola.com/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
